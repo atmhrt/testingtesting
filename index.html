@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Send Keplr Transaction</title>
+  </head>
+  <body>
+    <h1>Send Keplr Transaction</h1>
+    <p>Enter the required details to send a transaction using Keplr:</p>
+    <form id="transaction-form">
+      <label for="to-address">To Address:</label>
+      <input type="text" id="to-address" name="to-address"><br><br>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" name="amount"><br><br>
+      <label for="memo">Memo:</label>
+      <input type="text" id="memo" name="memo"><br><br>
+      <input type="button" value="Send Transaction" onclick="sendTransaction()">
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
